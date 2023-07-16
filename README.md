@@ -1,2 +1,3 @@
 # odin-recipes
-Odin Portfolio | First Project
+The Odin Project | Project 1
+
