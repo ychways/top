@@ -1,9 +1,33 @@
 * {
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
+    color: #3c2a4d;
+}
+
+.container {
+    width: 600px;
+    color: #3c2a4d;
+    background-color: #e0f0ea;
+    border: solid #3c2a4d;
+}
+
+.box {
+    margin: 0.5cm;
+}
+
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 img {
+    align-items: center;
     height: auto;
     width: 500px;
+}
+
+p, ul, ol
+ {
+    color:#574f7d;
 }
