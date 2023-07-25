@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 600px;
+    width: min(600px, 100%);
     color: #3c2a4d;
     background-color: #e0f0ea;
     border: solid #3c2a4d;
@@ -23,11 +23,13 @@
 
 img {
     align-items: center;
+    width: min(100%, 500px);
     height: auto;
-    width: 500px;
 }
 
 p, ul, ol
  {
     color:#574f7d;
 }
+
+
