@@ -6,7 +6,6 @@
 
 .container {
     width: min(600px, 100%);
-    color: #3c2a4d;
     background-color: #e0f0ea;
     border: solid #3c2a4d;
     margin: 20px auto;
@@ -28,14 +27,13 @@ img {
     height: auto;
 }
 
-p, ul, ol
- {
-    color:#574f7d;
-}
-
 .button {
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button a {
+    margin: 50px;
 }
