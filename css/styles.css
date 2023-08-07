@@ -1,39 +1,39 @@
 * {
-    font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 1.5;
-    color: #3c2a4d;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  color: #3c2a4d;
 }
 
 .container {
-    width: min(600px, 100%);
-    background-color: #e0f0ea;
-    border: solid #3c2a4d;
-    margin: 20px auto;
+  width: min(600px, 100%);
+  background-color: #e0f0ea;
+  border: solid #3c2a4d;
+  margin: 20px auto;
 }
 
 .box {
-    margin: 50px;
+  margin: 50px;
 }
 
-.flex { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-    align-items: center;
-    width: min(100%, 500px);
-    height: auto;
+  align-items: center;
+  width: min(100%, 500px);
+  height: auto;
 }
 
 .button {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button a {
-    margin: 50px;
+  margin: 50px;
 }
