@@ -1,5 +1,6 @@
-# The Odin Project | Exercises and Projects
+# The Odin Project Exercises and Projects
 
 css-exercises
 ---
 odin-recipes
+---
