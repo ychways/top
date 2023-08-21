@@ -12,6 +12,7 @@
   justify-content: left;
   align-items: center;
   gap: 16px;
+  margin-bottom: 0;
 }
 
 .navigation .logo {
@@ -24,4 +25,38 @@
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.header {
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+  background-color: #1f2937;
+}
+
+.header-left {
+  flex: 1;
+  padding: 24px;
+}
+
+.header-right {
+  flex: 1;
+  padding: 24px;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight:800;
+  margin-bottom: 0;
+}
+
+button {
+  color: #e5e7eb;
+  background-color: #3883F6;
+  font-size: 18px;
+  padding:6px;
+  min-width: 120px;
+  border-radius: 8px;
+  border-style: none;
 }
