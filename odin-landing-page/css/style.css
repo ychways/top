@@ -8,7 +8,7 @@
   font-size: 18px;
   display: flex;
   list-style-type: none;
-  padding: 24px;
+  padding: 24px 64px;
   justify-content: left;
   align-items: center;
   gap: 32px;
@@ -32,17 +32,18 @@ a {
   color: #e5e7eb;
   font-size: 18px;
   background-color: #1f2937;
+  padding: 24px 64px;
+  align-items: center;
 }
 
 .header-left {
   flex: 1;
-  padding: 24px;
+  padding-right: 12px;
 }
 
 .header-right {
   flex: 1;
-  padding: 24px;
-  display: flex;
+  padding-left: 12px;  
 }
 
 img {
@@ -72,17 +73,18 @@ h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 800;
+  padding: 0 64px;
 }
 
 .content {
   display: flex;
   gap: 64px;
   justify-content: center;
+  padding: 24px 64px;
 }
 
 .banana {
-  width: 128px;
-  height: auto;
+  flex-basis: 128px;
   margin-bottom: 64px;
 }
 
@@ -102,4 +104,20 @@ h2 {
 .text a {
   text-decoration: none;
   color: slategrey;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 24px 64px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.cited {
+  text-align: right;
+  font-size: 24px;
 }
