@@ -65,6 +65,7 @@ button {
   font-size: 18px;
   padding:6px;
   min-width: 120px;
+  max-height: 38px;
   border-radius: 8px;
   border-style: none;
 }
@@ -81,11 +82,12 @@ h2 {
   gap: 64px;
   justify-content: center;
   padding: 24px 64px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .banana {
   flex-basis: 128px;
-  margin-bottom: 64px;
 }
 
 .banana img {
@@ -108,16 +110,41 @@ h2 {
 
 .quote-section {
   background-color: #e5e7eb;
-  padding: 24px 64px;
+  padding: 24px 128px;
 }
 
 .quote {
   font-size: 36px;
   font-weight: 200;
   font-style: italic;
+  text-align: left;
 }
 
 .cited {
   text-align: right;
   font-size: 24px;
+}
+
+.action {
+  padding: 64px;
+}
+
+.box {
+  display: flex;
+  background-color: #3883F6;
+  border-radius: 8px;
+  padding: 24px 64px;
+  align-items: center;
+}
+
+.call {
+  flex: 3;
+  color:#f9faf8;
+  padding-right: 24px;
+}
+
+.box button {
+  flex: 1;
+  border-style: solid;
+  border-color: #f9faf8;
 }
